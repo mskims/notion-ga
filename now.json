@@ -1,0 +1,17 @@
+{
+	"version": 2,
+	"name": "notion-ga",
+	"alias": ["notion-ga"],
+	"builds": [{ "src": "*.js", "use": "@now/node-server" }],
+	"routes": [
+		{
+			"headers": {
+				"Access-Control-Allow-Origin": "*",
+				"Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+				"Access-Control-Allow-Headers": "X-Requested-With, Content-Type, Accept"
+			},
+			"src": "/.*",
+			"dest": "/index.js"
+		}
+	]
+}
