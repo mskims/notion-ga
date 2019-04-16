@@ -2,6 +2,8 @@
 
 Proxy server that allows you to track pageview events via google analytics. It uses notion's embed image feature to send pageview event to google analytics.
 
+![](preview.gif)
+
 ## How to use?
 
 1. Start notion-ga server and deploy it to the internet world (Optional)
