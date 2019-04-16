@@ -23,9 +23,33 @@ Proxy server that allows you to track pageview events via google analytics. It u
 - https://notion-ga.ohwhos.now.sh/collect?tid=UA-97180334-1&host=mskim.me&page=/careers/product-designer
 - https://notion-ga.ohwhos.now.sh/collect?tid=UA-97180334-1&host=mskim.me&page=/careers/data-engineer
 
-### Contributions
+## Development
 
-- Issues and PRs are welcome. Do not hesitate to do it. Please do.
+### Requirements
+
+- `Node.js@^8`
+
+### 1. Install dependencies
+
+```bash
+$ npm install now@^15 --global
+```
+
+### 2. Run development server
+
+```bash
+$ now dev
+```
+
+### 3. Deploy to the internet world
+
+```bash
+$ now
+```
+
+## Contributions
+
+Issues and PRs are welcome. Do not hesitate to do it. Please do.
 
 ## LICENSE
 
