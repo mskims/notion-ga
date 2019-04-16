@@ -18,7 +18,7 @@ Proxy server that allows you to track pageview events via google analytics. It u
 | host | Specifies the hostname from which content was hosted.   | mskim.me                  | Y        |
 | Page | The path portion of the page URL. Should begin with `/` | /careers/product-designer | Y        |
 
-### Example
+### Example URLs
 
 - https://notion-ga.ohwhos.now.sh/collect?tid=UA-97180334-1&host=mskim.me&page=/careers/product-designer
 - https://notion-ga.ohwhos.now.sh/collect?tid=UA-97180334-1&host=mskim.me&page=/careers/data-engineer
