@@ -1,3 +1,4 @@
+![Logo](/logo.svg)
 # notion-ga
 
 Proxy server that allows you to track pageview events via google analytics. It uses notion's embed image feature to send pageview event to google analytics.
