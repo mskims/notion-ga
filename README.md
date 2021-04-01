@@ -13,11 +13,11 @@ Proxy server that allows you to track pageview events via google analytics. It u
 
 ## Parameter reference
 
-| Key  | Description                                             | Example                   | Required |
-| ---- | ------------------------------------------------------- | ------------------------- | -------- |
-| tid  | Google Analytics tracking ID                            | UA-99123456-1             | Y        |
-| host | Specifies the hostname from which content was hosted.   | mskim.me                  | Y        |
-| Page | The path portion of the page URL. Should begin with `/` | /careers/product-designer | Y        |
+| Key  | Description                                                   | Example                   | Required |
+| ---- | ------------------------------------------------------------- | ------------------------- | -------- |
+| tid  | Google Analytics tracking ID (GA4 IDs are not supported. #7)  | UA-99123456-1             | Y        |
+| host | Specifies the hostname from which content was hosted.         | mskim.me                  | Y        |
+| Page | The path portion of the page URL. Should begin with `/`       | /careers/product-designer | Y        |
 
 ### Example URLs
 
