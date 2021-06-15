@@ -34,11 +34,11 @@ app.get("*", (req, res) => {
 
 const getPayload = req => ({
   v: 1,
-  tid: req.query.tid,
   cid: req.session.id,
   t: "pageview",
-  dh: req.query.host,
-  dp: req.query.page
+  dh: "default.host",
+  dp: "/default/page",
+  ...req.query
 });
 
 const exit = res =>

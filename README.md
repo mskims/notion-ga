@@ -16,8 +16,9 @@ Proxy server that allows you to track pageview events via google analytics. It u
 | Key  | Description                                                   | Example                   | Required |
 | ---- | ------------------------------------------------------------- | ------------------------- | -------- |
 | tid  | Google Analytics tracking ID. GA4 IDs are not supported. [#7](https://github.com/mskims/notion-ga/issues/7)  | UA-99123456-1             | Y        |
-| host | Specifies the hostname. It doesn't matter the specified hostname exists or not. It only appears on your GA dashboard.         | mskim.me                  | Y        |
-| Page | The path portion of the page URL. Should begin with `/`       | /careers/product-designer | Y        |
+| dh | Specifies the hostname. It doesn't matter the specified hostname exists or not. It only appears on your GA dashboard.         | mskim.me                  | Optional        |
+| dp | The path portion of the page URL. Should begin with `/`       | /careers/product-designer | Optional        |
+| dt | The page title | career | Optional        |
 
 ### Example URLs
 
